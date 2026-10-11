@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NOIR — Магазин одежды</title>
+
+    <link rel="stylesheet" href="style 1.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <a href="#home" class="logo">
+            NOIR
+        </a>
+
+        <nav class="nav">
+            <a href="#home">Главная</a>
+            <a href="#catalog">Каталог</a>
+            <a href="#about">О нас</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+
+        <button class="cart-button" id="cartButton">
+            <span>Корзина</span>
+            <span class="cart-count" id="cartCount">0</span>
+        </button>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <span class="hero-label">
+                    NOIR COLLECTION
+                </span>
+
+                <h1>
+                    Твой стиль.<br>
+                    Твои правила.
+                </h1>
+
+                <p>
+                    Минималистичная одежда для тех,
+                    кто создаёт свой собственный стиль.
+                </p>
+
+                <a href="#catalog" class="hero-button">
+                    Смотреть каталог
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CATEGORIES ================= -->
+
+        <section class="categories">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+                    <span>КАТЕГОРИИ</span>
+                    <h2>Выбери свой стиль</h2>
+                </div>
+
+                <div class="category-buttons">
+
+                    <button
+                        class="category-button active"
+                        data-category="all">
+                        Все товары
+                    </button>
+
+                    <button
+                        class="category-button"
+                        data-category="ФУТБОЛКИ">
+                        Футболки
+                    </button>
+
+                    <button
+                        class="category-button"
+                        data-category="ХУДИ">
+                        Худи
+                    </button>
+
+                    <button
+                        class="category-button"
+                        data-category="БРЮКИ">
+                        Брюки
+                    </button>
+
+                    <button
+                        class="category-button"
+                        data-category="ВЕРХНЯЯ ОДЕЖДА">
+                        Верхняя одежда
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CATALOG ================= -->
+
+        <section class="catalog" id="catalog">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <span>КАТАЛОГ</span>
+
+                    <h2>
+                        Новая коллекция
+                    </h2>
+
+                    <p>
+                        Базовые вещи для современного гардероба.
+                    </p>
+
+                </div>
+
+
+                <div class="products-grid">
+
+
+                    <!-- PRODUCT 1 -->
+
+                    <article
+                        class="product-card"
+                        data-id="1"
+                        data-category="ФУТБОЛКИ">
+
+                        <div class="product-image product-image-black">
+
+                            <span class="product-brand">
+                                NOIR
+                            </span>
+
+                            <small>
+                                T-SHIRT
+                            </small>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                ФУТБОЛКИ
+                            </span>
+
+                            <h3>
+                                Oversize Black
+                            </h3>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    1 499 ₴
+                                </strong>
+
+                                <button
+                                    class="view-product"
+                                    data-id="1">
+                                    Подробнее
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCT 2 -->
+
+                    <article
+                        class="product-card"
+                        data-id="2"
+                        data-category="ФУТБОЛКИ">
+
+                        <div class="product-image product-image-white">
+
+                            <span class="product-brand">
+                                NOIR
+                            </span>
+
+                            <small>
+                                T-SHIRT
+                            </small>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                ФУТБОЛКИ
+                            </span>
+
+                            <h3>
+                                White Essential
+                            </h3>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    1 399 ₴
+                                </strong>
+
+                                <button
+                                    class="view-product"
+                                    data-id="2">
+                                    Подробнее
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCT 3 -->
+
+                    <article
+                        class="product-card"
+                        data-id="3"
+                        data-category="ХУДИ">
+
+                        <div class="product-image product-image-dark">
+
+                            <span class="product-brand">
+                                NOIR
+                            </span>
+
+                            <small>
+                                HOODIE
+                            </small>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                ХУДИ
+                            </span>
+
+                            <h3>
+                                Classic Hoodie
+                            </h3>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    2 499 ₴
+                                </strong>
+
+                                <button
+                                    class="view-product"
+                                    data-id="3">
+                                    Подробнее
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCT 4 -->
+
+                    <article
+                        class="product-card"
+                        data-id="4"
+                        data-category="ХУДИ">
+
+                        <div class="product-image product-image-grey">
+
+                            <span class="product-brand">
+                                NOIR
+                            </span>
+
+                            <small>
+                                HOODIE
+                            </small>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                ХУДИ
+                            </span>
+
+                            <h3>
+                                Grey Oversize
+                            </h3>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    2 699 ₴
+                            </strong>
+
+                                <button
+                                    class="view-product"
+                                    data-id="4">
+                                    Подробнее
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCT 5 -->
+
+                    <article
+                        class="product-card"
+                        data-id="5"
+                        data-category="БРЮКИ">
+
+                        <div class="product-image product-image-pants">
+
+                            <span class="product-brand">
+                                NOIR
+                            </span>
+
+                            <small>
+                                PANTS
+                            </small>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                БРЮКИ
+                            </span>
+
+                            <h3>
+                                Wide Pants
+                            </h3>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    2 199 ₴
+                                </strong>
+
+                                <button
+                                    class="view-product"
+                                    data-id="5">
+                                    Подробнее
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCT 6 -->
+
+                    <article
+                        class="product-card"
+                        data-id="6"
+                        data-category="ВЕРХНЯЯ ОДЕЖДА">
+
+                        <div class="product-image product-image-jacket">
+
+                            <span class="product-brand">
+                                NOIR
+                            </span>
+
+                            <small>
+                                JACKET
+                            </small>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                ВЕРХНЯЯ ОДЕЖДА
+                            </span>
+
+                            <h3>
+                                Urban Jacket
+                            </h3>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    3 499 ₴
+                                </strong>
+
+                                <button
+                                    class="view-product"
+                                    data-id="6">
+                                    Подробнее
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about" id="about">
+
+            <div class="section-container">
+
+                <div class="about-card">
+
+                    <div class="about-label">
+                        О БРЕНДЕ
+                    </div>
+
+                    <h2>
+                        NOIR — это больше,<br>
+                        чем просто одежда.
+                    </h2>
+
+                    <p>
+                        Мы создаём минималистичные вещи,
+                        которые легко сочетать между собой.
+                        Никакого лишнего — только форма,
+                        комфорт и стиль.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACTS ================= -->
+
+        <section class="contacts" id="contacts">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <span>КОНТАКТЫ</span>
+
+                    <h2>
+                        Свяжись с нами
+                    </h2>
+
+                </div>
+
+                <div class="contacts-grid">
+
+                    <div class="contact-card">
+
+                        <span>
+                            TELEGRAM
+                        </span>
+
+                        <strong>
+                            @noir_store
+                        </strong>
+
+                    </div>
+
+                    <div class="contact-card">
+
+                        <span>
+                            EMAIL
+                        </span>
+
+                        <strong>
+                            hello@noir.store
+                        </strong>
+
+                    </div>
+
+                    <div class="contact-card">
+
+                        <span>
+                            РЕЖИМ РАБОТЫ
+                        </span>
+
+                        <strong>
+                            Пн–Вс · 10:00–20:00
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= PRODUCT MODAL ================= -->
+
+    <div
+        class="product-modal-overlay"
+        id="productModal">
+
+        <div class="product-modal">
+
+            <button
+                class="modal-close"
+                id="closeProductModal">
+                ×
+            </button>
+
+
+            <div class="modal-product-image">
+
+                <span id="modalProductBrand">
+                    NOIR
+                </span>
+
+                <small id="modalProductType">
+                    T-SHIRT
+                </small>
+
+            </div>
+
+
+            <div class="modal-product-info">
+
+                <span
+                    class="modal-category"
+                    id="modalCategory">
+                    ФУТБОЛКИ
+                </span>
+
+                <h2 id="modalProductName">
+                    Oversize Black
+                </h2>
+
+                <p
+                    class="modal-description"
+                    id="modalDescription">
+                    Базовая оверсайз-футболка свободного кроя.
+                </p>
+
+                <div
+                    class="modal-price"
+                    id="modalPrice">
+                    1 499 ₴
+                </div>
+
+
+                <div class="size-section">
+
+                    <span>
+                        Размер
+                    </span>
+
+                    <div class="size-buttons">
+
+                        <button
+                            class="size-button"
+                            data-size="XS">
+                            XS
+                        </button>
+
+                        <button
+                            class="size-button"
+                            data-size="S">
+                            S
+                        </button>
+
+                        <button
+                            class="size-button active"
+                            data-size="M">
+                            M
+                        </button>
+
+                        <button
+                            class="size-button"
+                            data-size="L">
+                            L
+                        </button>
+
+                        <button
+                            class="size-button"
+                            data-size="XL">
+                            XL
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div class="quantity-section">
+
+                    <span>
+                        Количество
+                    </span>
+
+                    <div class="quantity-selector">
+
+                        <button id="modalMinus">
+                            −
+                        </button>
+
+                        <span id="modalQuantity">
+                            1
+                        </span>
+
+                        <button id="modalPlus">
+                            +
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    class="modal-add-button"
+                    id="modalAddToCart">
+                    Добавить в корзину
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= CART ================= -->
+
+    <div
+        class="cart-overlay"
+        id="cartOverlay">
+
+        <aside class="cart">
+
+            <div class="cart-header">
+
+                <div>
+                    <span class="cart-label">
+                        NOIR
+                    </span>
+
+                    <h2>
+                        Корзина
+                    </h2>
+                </div>
+
+                <button
+                    class="close-cart"
+                    id="closeCart">
+                    ×
+                </button>
+
+            </div>
+
+
+            <div
+                class="cart-items"
+                id="cartItems">
+
+                <div class="empty-cart">
+                    Корзина пока пуста
+                </div>
+
+            </div>
+
+
+            <div class="cart-footer">
+
+                <div class="cart-total">
+
+                    <span>
+                        Итого:
+                    </span>
+
+                    <strong id="cartTotal">
+                        0 ₴
+                    </strong>
+
+                </div>
+
+                <button
+                    class="checkout-button"
+                    id="checkoutButton">
+                    Оформить заказ
+                </button>
+
+            </div>
+
+        </aside>
+
+    </div>
+
+
+    <!-- ================= CHECKOUT ================= -->
+
+    <div
+        class="checkout-modal-overlay"
+        id="checkoutModal">
+
+        <div class="checkout-modal">
+
+            <button
+                class="checkout-close"
+                id="closeCheckout">
+                ×
+            </button>
+
+
+            <div class="checkout-header">
+
+                <span>
+                    NOIR ORDER
+                </span>
+
+                <h2>
+                    Оформление заказа
+                </h2>
+
+                <p>
+                    Заполни данные для доставки
+                </p>
+
+            </div>
+
+
+            <form id="checkoutForm">
+
+
+                <!-- PERSONAL DATA -->
+
+                <div class="checkout-section">
+
+                    <div class="checkout-section-title">
+                        01 · Получатель
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="customerName">
+                                Имя и фамилия
+                            </label>
+
+                            <input
+                                type="text"
+                                id="customerName"
+                                name="customerName"
+                                placeholder="Например, Анна Иванова"
+                                required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="customerPhone">
+                                Номер телефона
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="customerPhone"
+                                name="customerPhone"
+                                placeholder="+380 00 000 00 00"
+                                required>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- DELIVERY -->
+
+                <div class="checkout-section">
+
+                    <div class="checkout-section-title">
+                        02 · Доставка
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="customerCity">
+                                Город
+                            </label>
+
+                            <input
+                                type="text"
+                                id="customerCity"
+                                name="customerCity"
+                                placeholder="Ваш город"
+                                required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="deliveryType">
+                                Способ доставки
+                            </label>
+
+                            <select
+                                id="deliveryType"
+                                name="deliveryType"
+                                required>
+
+                                <option value="">
+                                    Выберите способ
+                                </option>
+
+                                <option value="Новая почта">
+                                    Новая почта
+                                </option>
+
+                                <option value="Укрпочта">
+                                    Укрпочта
+                                </option>
+
+                                <option value="Курьер">
+                                    Курьерская доставка
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="deliveryAddress">
+                            Отделение / адрес
+                        </label>
+
+                        <input
+                            type="text"
+                            id="deliveryAddress"
+                            name="deliveryAddress"
+                            placeholder="Отделение или адрес доставки"
+                            required>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PAYMENT -->
+
+                <div class="checkout-section">
+
+                    <div class="checkout-section-title">
+                        03 · Оплата
+                    </div>
+
+
+                    <div class="payment-options">
+
+                        <label class="payment-option">
+
+                            <input
+                                type="radio"
+                                name="payment"
+                                value="При получении"
+                                required>
+
+                            <span class="payment-content">
+
+                                <strong>
+                                    При получении
+                                </strong>
+
+                                <small>
+                                    Оплата при получении заказа
+                                </small>
+
+                            </span>
+
+                        </label>
+
+
+                        <label class="payment-option">
+
+                            <input
+                                type="radio"
+                                name="payment"
+                                value="Онлайн-оплата">
+
+                            <span class="payment-content">
+
+                                <strong>
+                                    Онлайн-оплата
+                                </strong>
+
+                                <small>
+                                    Демо-режим без ввода данных карты
+                                </small>
+
+                            </span>
+
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <!-- COMMENT -->
+
+                <div class="checkout-section">
+
+                    <div class="checkout-section-title">
+                        04 · Дополнительно
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="orderComment">
+                            Комментарий к заказу
+                        </label>
+
+                        <textarea
+                            id="orderComment"
+                            name="orderComment"
+                            rows="4"
+                            placeholder="Например: позвонить перед доставкой"></textarea>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ORDER SUMMARY -->
+
+                <div class="checkout-summary">
+
+                    <div class="checkout-summary-header">
+
+                        <span>
+                            Ваш заказ
+                        </span>
+
+                        <span id="checkoutItemsCount">
+                            0 товаров
+                        </span>
+
+                    </div>
+
+
+                    <div
+                        class="checkout-summary-items"
+                        id="checkoutSummaryItems">
+                    </div>
+
+
+                    <div class="checkout-summary-total">
+
+                        <span>
+                            Итоговая сумма
+                        </span>
+
+                        <strong id="checkoutTotal">
+                            0 ₴
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="confirm-order-button">
+
+                    Подтвердить заказ
+
+                </button>
+
+
+                <p class="checkout-note">
+                    Нажимая кнопку, вы подтверждаете
+                    оформление заказа.
+                </p>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= SUCCESS MODAL ================= -->
+
+    <div
+        class="success-modal-overlay"
+        id="successModal">
+
+        <div class="success-modal">
+
+            <div class="success-icon">
+                ✓
+            </div>
+
+            <span>
+                NOIR ORDER
+            </span>
+
+            <h2>
+                Заказ принят!
+            </h2>
+
+            <p>
+                Спасибо за покупку.
+                Мы получили ваш заказ и свяжемся
+                с вами для подтверждения.
+            </p>
+
+            <div class="order-number">
+
+                <small>
+                    Номер заказа
+                </small>
+
+                <strong id="orderNumber">
+                    #NOIR0000
+                </strong>
+
+            </div>
+
+            <button
+                class="success-button"
+                id="closeSuccess">
+                Вернуться в магазин
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= NOTIFICATION ================= -->
+
+    <div
+        class="notification"
+        id="notification">
+    </div>
+
+
+    <script src="script 1.js"></script>
+
+</body>
+</html>
